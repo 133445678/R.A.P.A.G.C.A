@@ -1,0 +1,57 @@
+{
+  "project_info": {
+    "project_number": "361903285947",
+    "project_id": "rapagca",
+    "storage_bucket": "rapagca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361903285947:android:dfaa0c86951db40782ab9e",
+        "android_client_info": {
+          "package_name": "RAPAGCA.myapp.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "361903285947-di2la4mqanjl7g1kf563md4v4vuqq6l6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6CK4aZ_P7L8285ncvh0vXhbzAHW8WWco"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "361903285947-di2la4mqanjl7g1kf563md4v4vuqq6l6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
+plugins {
+  id 'com.android.application'
+
+  // Add the Google services Gradle plugin
+  id 'com.google.gms.google-services'
+
+  ...
+}
+
+dependencies {
+  // Import the Firebase BoM
+  implementation platform('com.google.firebase:firebase-bom:32.0.0')
+
+
+  // TODO: Add the dependencies for Firebase products you want to use
+  // When using the BoM, don't specify versions in Firebase dependencies
+  // https://firebase.google.com/docs/android/setup#available-libraries
+}
