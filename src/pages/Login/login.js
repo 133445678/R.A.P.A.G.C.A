@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./login.css";
 import Title from "./components/Title/title";
 import Label from "./components/Label/Label";
-import input from "./components/input/input";
+import Input from "./components/Input/input";
 
 const Login = () => {
     const [ user, setUser ] = useState('');

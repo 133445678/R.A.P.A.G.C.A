@@ -1,12 +1,18 @@
 import React from "react";
-import './Input.css';
+import './input.css';
 
-const input = ({ attribute, handleChange, param}) => {
+const Input = ( { attribute, handleChange, param } ) => {
     return (
         <div>
-            <input id="attribute.id" name="attribute.name" placeholder="ingrese su usuario" type="text" onChange={} className=""/>
-            <input id="" name="" placeholder="ingrese su contraseña" type="password" onChange={} className=""/>
+            <input id={attribute.id}
+                  name={attribute.name} 
+                  placeholder={attribute.placeholder} 
+                  type= {attribute.type} 
+                  onChange={ (e) => handleChange(e.target.name, e.target.value)} 
+                  className= 'regular-swtyle'
+                  />
+            <input id="" name="" placeholder="ingrese su contraseña" type="password" onChange={(e) => handleChange(e.target.name, e.target.value)} className=""/>
         </div>
     )
 };
-export default input;
+export default Input;

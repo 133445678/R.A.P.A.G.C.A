@@ -20,3 +20,9 @@
     color: darkorchid;
     opacity: 0.8;
 }
+
+.input-error {
+    border: 1px solid red;
+    color: blue;
+    background: rosybrown ;
+}
