@@ -7,13 +7,19 @@ import input from "./components/input/input";
 const Login = () => {
     const [ user, setUser ] = useState('');
     const [ password, setPassword ] = useState('');
+    const [ passwordError, setPasswordError ] = useState(false);
 
     //Variable para almacenar usuario
     function handleChange (name, value) {
      if(name == 'usuario'){
       setUser(value)
      }else{
+        if(value < 8){
+            setPasswordError(true);
+        } else{
+        setPasswordError(false);
         setPassword(value)
+        }
      }
     };
     function handleSubmit(){
@@ -44,6 +50,7 @@ const Login = () => {
             placeholder: 'Ingrese su Contraseña'
            }}
            handleChange={handleChange}
+           param={passwordError}
            />
            <button onClick={ (e) => handleSubmit }>
             Ingresar
