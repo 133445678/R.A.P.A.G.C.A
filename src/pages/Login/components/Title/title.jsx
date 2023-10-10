@@ -2,7 +2,8 @@ import React from "react";
 
 const Title = ({ text }) => {
     return (
-        <div>
+        <div className="title-container">
+            <label className="title-label"></label>
          {text}
         </div>
     )
