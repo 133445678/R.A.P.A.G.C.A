@@ -61,7 +61,16 @@ export default class AddTutorial extends Component{
     }
 
     render(){
-       
+       <div className="sumit-form">
+            {this.state.submitted             
+             <div>
+                <h4>You submitted successfully!</h4>
+                <buttom className="bfn-btn-sucsses" onClick={this.newTutorial}>
+                    add
+                </buttom>
+              </div> 
+            }
+        </div>
     }
 
 }
