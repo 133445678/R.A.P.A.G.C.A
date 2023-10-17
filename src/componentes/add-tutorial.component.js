@@ -61,32 +61,7 @@ export default class AddTutorial extends Component{
     }
 
     render(){
-        return (
-            <div className="sumit-form">
-                 {this.state.submitted ?
-                  <div>
-                    <h4>You submitted successfully!</h4>
-                    <button className="bfn-btn-sucsses" onClick={this.newTutorial}>
-                        add
-                    </button>
-                  </div> 
-                } 
-            </div>
-        ):(
-            <div>
-                <div className="from-group">
-                    <label htmlFor="title">title</label>
-                    <input
-                     type="text"
-                     className="form-control"
-                     id="title"
-                     required
-                     value={this.state.title}
-                     onChange={this.onChangeTitle}
-                     name="title"
-                    />
-                </div>
-            </div>
-        )
+       
     }
+
 }
