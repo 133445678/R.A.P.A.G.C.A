@@ -9,6 +9,7 @@ const Login = () => {
     const [ password, setPassword ] = useState('');
     const [ passwordError, setPasswordError ] = useState(false);
     const [IsLogin, setIsLogin] = useState(false);
+    const [ hasError, setHasError ] = useState(false);
 
     //Variable para almacenar usuario
     function handleChange (name, value) {
@@ -24,7 +25,7 @@ const Login = () => {
      }
     };
     function  ifMacht(param){
-        if(param.user > 0 && param.password > 0){
+        if(param.user.lenght > 0 && param.password.lenght > 0){
             if(param.user == "" && param.password == "123456789"){
                 const { user, password } = param;
                 let ac = { user, password};
@@ -33,6 +34,7 @@ const Login = () => {
                 setIsLogin(true);
             }else{
                 setIsLogin(false);
+                setHasError(true);
             }
         }else{
             setIsLogin(false);
@@ -41,12 +43,15 @@ const Login = () => {
     function handleSubmit(){
         let account = { user, password }
         if(account){
-            console.log('account:', account)
+            ifMacht(account);
         }
     };
     return (
         <div className="login-container">
-           <Title text= "Hola bienvenidos a " />
+           <Title text= "¡Bienvenidos! " />
+           <Label className="label-alert">
+            Su contraseña o usuario son incorrectos, o no existen en nuestra app
+           </Label>
            <Label text= "ingrese su usario" />
            <Input
            attribute={{
@@ -68,9 +73,16 @@ const Login = () => {
            handleChange={handleChange}
            param={passwordError}
            />
-           <button onClick={ (e) => handleSubmit }>
+           { passwordError &&
+             <label className="label-error"> 
+              Contraseña inválida o incompleta
+              </label>
+           }
+           <div className="submit-button-container">
+           <button onClick={ handleSubmit } className="submit">
             Ingresar
            </button>
+           </div>
         </div>
     )
 };

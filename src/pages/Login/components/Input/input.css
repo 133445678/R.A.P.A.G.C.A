@@ -20,6 +20,11 @@
     color: darkorchid;
     opacity: 0.8;
 }
+.regular-style::placeholder{
+    font-size: 14px;
+    color: gray;
+    opacity: 0.8;
+}
 
 .input-error {
     border: 1px solid red;
@@ -27,4 +32,11 @@
     background: rosybrown ;
     height: 35px;
     width: 100%;
+    border-radius: 25px;
+    padding: 0 10px 0 20px;
+}
+
+.input-error::placeholder {
+  color: red;
+  
 }
