@@ -60,7 +60,7 @@ export default class AddTutorial extends Component{
         });
     }
 
-    render(
+   // render(
         <div className="sumit-form">
         {this.state.submitted ?
          <div>
@@ -86,7 +86,7 @@ export default class AddTutorial extends Component{
            />
        </div>
    </div>
-)
+   )
 }
 }
         
