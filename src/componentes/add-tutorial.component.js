@@ -80,13 +80,13 @@ export default class AddTutorial extends Component{
      //       className="form-control"
      //       id="title"
      //       required
-            value={this.state.title}
-            onChange={this.onChangeTitle}
-            name="title"
-           />
-       </div>
-   </div>
-   )
-}
+     //       value={this.state.title}
+     //       onChange={this.onChangeTitle}
+     //       name="title"
+     //      />
+     //  </div>
+  // </div>
+  // )
+//}
 }
         
