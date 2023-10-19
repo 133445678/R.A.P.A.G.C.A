@@ -8,5 +8,3 @@ let config = {
     //messagingSenderID: //te lo da firebase
     //appID: //te lo da firebase
 }
-
-//
