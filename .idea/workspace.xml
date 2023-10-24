@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="3ce71b6b-59d5-4a13-acc6-d9ffb77e57b9" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/src/App.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cuentanew.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/cuentanew.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/login.css" afterDir="false" />
+=======
+    <list default="true" id="724e78dd-be80-46a7-8441-9a7701196fca" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> c628f4c20cceeb1ba2b1cb4f1b1548fccc3a937b
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +27,11 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectId" id="2URq5dQg9uauyS8lcDEHaM291Ad" />
+=======
+  <component name="ProjectId" id="2QqS5rVU7lQsdKrwvEUgjtQaoZb" />
+>>>>>>> c628f4c20cceeb1ba2b1cb4f1b1548fccc3a937b
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -34,18 +43,30 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+<<<<<<< HEAD
     &quot;last_opened_file_path&quot;: &quot;C:/myapp&quot;,
+=======
+    &quot;last_opened_file_path&quot;: &quot;C:/R.A.P.A.G.C.A&quot;,
+>>>>>>> c628f4c20cceeb1ba2b1cb4f1b1548fccc3a937b
     &quot;settings.editor.selected.configurable&quot;: &quot;AndroidSdkUpdater&quot;
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="3ce71b6b-59d5-4a13-acc6-d9ffb77e57b9" name="Changes" comment="" />
       <created>1692912559370</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1692912559370</updated>
+=======
+      <changelist id="724e78dd-be80-46a7-8441-9a7701196fca" name="Changes" comment="" />
+      <created>1686079441176</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686079441176</updated>
+>>>>>>> c628f4c20cceeb1ba2b1cb4f1b1548fccc3a937b
     </task>
     <servers />
   </component>
