@@ -1,14 +1,13 @@
 import React from 'react';
-import Title from './Title/title';
-import Label from './Label/label';
+import Title from './componentes/Title/title';
+import Label from './componentes/Label/label';
 
 const label = ({ text }) => {
     return (
         <div>
             <Label> {text} </Label>
-            <title text='Bienvenidos '/>
+            <Title text='Bienvenidos '/>
         </div>
     )
 };
-
-export default Label;
+export default label;

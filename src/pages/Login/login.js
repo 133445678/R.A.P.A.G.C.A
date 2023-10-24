@@ -9,7 +9,7 @@ const Login = () => {
     const [ password, setPassword ] = useState('');
     const [ passwordError, setPasswordError ] = useState(false);
     const [IsLogin, setIsLogin] = useState(false);
-    const [ hasError, setHasError ] = useState(false);
+    const [ HasError, setHasError ] = useState(false);
 
     //Variable para almacenar usuario
     function handleChange (name, value) {
