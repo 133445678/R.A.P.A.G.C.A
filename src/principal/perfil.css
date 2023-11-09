@@ -5,3 +5,14 @@
     margin: 0;
     padding: 0;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
+.contenedor-header{
+    background: #1e2326;
+    position: fixed;
+    width: 100%;
+    text-outline: 0 0 #000;
+}
