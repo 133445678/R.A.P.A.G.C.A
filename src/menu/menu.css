@@ -76,6 +76,15 @@ html{
     background-color: #1e2326;
     max-width: 350px;
     margin: auto;
+    text-align: center;
     border-radius: 40px;
 }
 
+.inicio .contenedor-banner img{
+    margin-top: 40px;
+    border: 10px solid #1cb698;
+    display: block;
+    width: 80%;
+    margin: auto;
+    border-radius: 100%;
+}
